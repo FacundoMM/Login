@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h2><a href="#">Inicio de Sesion</a></h2>
+            <h2><a href="#">Nuevo Registro</a></h2>
+        </header>
+
+        <form id="inicio">
+            <div>
+                <input type="text" id="User" class="input" placeholder=" ">
+                <label for="User" class="label">Usuario</label>
+                <span></span>
+            </div>
+
+            <div>
+                <input type="password" id="contrase" class="input" placeholder=" ">
+                <label for="contrase" class="label">Contraseña</label>
+                <span></span>
+            </div>
+
+            <div>
+                <input type="checkbox" id="mantener" class="mantener-sesion" placeholder="">
+                <label for="mantener" class="mantener-sesion" >Mantener Sesion Iniciada</label>
+            </div>
+
+            <input type="submit" class="inicio-btn" value="Iniciar sesion">
+        </form>
+
+
+        <form id="nuevo">
+            <div>
+                <input type="text" id="User-Name" class="input" placeholder=" ">
+                <label for="User-Name" class="label">Nombre de Usuario</label>
+            </div>
+            <div>
+                <input type="email" id="Gmail" class="input" placeholder=" ">
+                <label for="Gmail" class="label">Gmail</label>
+            </div>
+            <div>
+                <input type="password" id="contrase-nueva" class="input" placeholder=" ">
+                <label for="contrase-nueva" class="label">Contraseña</label>
+            </div>
+            <div>
+                <input type="password" id="confirmar-contrase" class="input" placeholder=" ">
+                <label for="confirmar-contrase" class="label">Confirmar contraseña</label>
+            </div>
+            <input type="submit" class="inicio-btn" value="Crear cuenta">
+        </form>
+
+    </section>
+
+</body>
+</html>
